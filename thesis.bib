@@ -1,0 +1,247 @@
+@article{timeclocks,
+author = {Lamport, Leslie},
+title = {Time, {Clocks}, and the {Ordering} of {Events} in a {Distributed} {System}},
+year = {1978},
+issue_date = {July 1978},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {21},
+number = {7},
+issn = {0001-0782},
+url = {https://doi.org/10.1145/359545.359563},
+doi = {10.1145/359545.359563},
+abstract = {The concept of one event happening before another in a distributed system is examined, and is shown to define a partial ordering of the events. A distributed algorithm is given for synchronizing a system of logical clocks which can be used to totally order the events. The use of the total ordering is illustrated with a method for solving synchronization problems. The algorithm is then specialized for synchronizing physical clocks, and a bound is derived on how far out of synchrony the clocks can become.},
+journal = {Commun. ACM},
+month = jul,
+pages = {558–565},
+numpages = {8},
+keywords = {computer networks, distributed systems, clock synchronization, multiprocess systems}
+}
+
+@article{schneidertut,
+author = {Schneider, Fred B.},
+title = {Implementing Fault-Tolerant Services Using the State Machine Approach: A Tutorial},
+year = {1990},
+issue_date = {Dec. 1990},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {22},
+number = {4},
+issn = {0360-0300},
+url = {https://doi.org/10.1145/98163.98167},
+doi = {10.1145/98163.98167},
+abstract = {The state machine approach is a general method for implementing fault-tolerant services in distributed systems. This paper reviews the approach and describes protocols for two different failure models—Byzantine and fail stop. Systems reconfiguration techniques for removing faulty components and integrating repaired components are also discussed.},
+journal = {ACM Comput. Surv.},
+month = dec,
+pages = {299–319},
+numpages = {21}
+}
+
+@article{parttime,
+author = {Lamport, Leslie},
+title = {The {Part}-{Time} {Parliament}},
+year = {1998},
+issue_date = {May 1998},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {16},
+number = {2},
+issn = {0734-2071},
+url = {https://doi.org/10.1145/279227.279229},
+doi = {10.1145/279227.279229},
+abstract = {Recent archaeological discoveries on the island of Paxos reveal that the parliament functioned despite the peripatetic propensity of its part-time legislators. The legislators maintained consistent copies of the parliamentary record, despite their frequent forays from the chamber and the forgetfulness of their messengers. The Paxon parliament's protocol provides a new way of implementing the state machine approach to the design of distributed systems.},
+journal = {ACM Trans. Comput. Syst.},
+month = may,
+pages = {133–169},
+numpages = {37},
+keywords = {voting, state machines, three-phase commit}
+}
+  
+@phdthesis{bridging,
+  title={Consensus: Bridging theory and practice},
+  author={Ongaro, Diego},
+  year={2014},
+  school={Stanford University},
+  note="\url{https://github.com/ongardie/dissertation}"
+}
+
+@article{paxosvsraft,
+   title={Paxos vs {Raft}},
+   ISBN={9781450375245},
+   url={http://dx.doi.org/10.1145/3380787.3393681},
+   DOI={10.1145/3380787.3393681},
+   journal={Proceedings of the 7thWorkshop on Principles and Practice of Consistency for Distributed Data},
+   publisher={ACM},
+   author={Howard, Heidi and Mortier, Richard},
+   year={2020},
+   month={Apr}
+}
+
+@article{caspaxos,
+  title={{CASPaxos}: {Replicated} state machines without logs},
+  author={Rystsov, Denis},
+  journal={arXiv preprint arXiv:1802.07000},
+  year={2018}
+}
+
+@inproceedings{paxoslive,
+  title={Paxos made live: an engineering perspective},
+  author={Chandra, Tushar D and Griesemer, Robert and Redstone, Joshua},
+  booktitle={Proceedings of the twenty-sixth annual ACM symposium on Principles of distributed computing},
+  pages={398--407},
+  year={2007}
+}
+
+@article{spanner,
+  title={Spanner: Google’s globally distributed database},
+  author={Corbett, James C and Dean, Jeffrey and Epstein, Michael and Fikes, Andrew and Frost, Christopher and Furman, Jeffrey John and Ghemawat, Sanjay and Gubarev, Andrey and Heiser, Christopher and Hochschild, Peter and others},
+  journal={ACM Transactions on Computer Systems (TOCS)},
+  volume={31},
+  number={3},
+  pages={1--22},
+  year={2013},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{crdts,
+  title={Conflict-free replicated data types},
+  author={Shapiro, Marc and Pregui{\c{c}}a, Nuno and Baquero, Carlos and Zawirski, Marek},
+  booktitle={Symposium on Self-Stabilizing Systems},
+  pages={386--400},
+  year={2011},
+  organization={Springer}
+}
+
+@article{moderatelycomplex,
+  title={Paxos made moderately complex},
+  author={Van Renesse, Robbert and Altinbuken, Deniz},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={47},
+  number={3},
+  pages={1--36},
+  year={2015},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{ufds,
+  title={Unreliable failure detectors for reliable distributed systems},
+  author={Chandra, Tushar Deepak and Toueg, Sam},
+  journal={Journal of the ACM (JACM)},
+  volume={43},
+  number={2},
+  pages={225--267},
+  year={1996},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{omega,
+  title={The weakest failure detector for solving consensus},
+  author={Chandra, Tushar Deepak and Hadzilacos, Vassos and Toueg, Sam},
+  journal={Journal of the ACM (JACM)},
+  volume={43},
+  number={4},
+  pages={685--722},
+  year={1996},
+  publisher={ACM New York, NY, USA}
+}
+
+@Article{tlaplus,
+author = {Lamport, Leslie},
+title = {Specifying Concurrent Systems with {TLA+}},
+year = {1999},
+month = {April},
+abstract = {I was invited to lecture at the 1998 Marktoberdorf summer school. One reason I accepted was that I was in the process of writing a book on concurrency, and I could use the early chapters of the book as my lecture notes. However, I decided to put aside (perhaps forever) that book and instead write a book on TLA+. I was able to recycle much material from my original notes for the purpose. For the official volume of published notes for the course, I decided to provide this, which is a preliminary draft of the first several chapters of [144].},
+url = {https://www.microsoft.com/en-us/research/publication/specifying-concurrent-systems-tla/},
+pages = {183-247},
+journal = {Calculational System Design},
+edition = {Calculational System Design. M. Broy and R. Steinbrüggen, editors. IOS Press, Amsterdam.},
+}
+
+@manual{tlacourse,
+    title = "TLA+ Video Course",
+    author = "Leslie Lamport",
+    note = "\url{http://lamport.azurewebsites.net/video/videos.html}",
+    year = "accessed November 6, 2020"
+}
+
+@rfc{tcp,
+    author = {Postel, J.},
+    title = {RFC0793: Transmission Control Protocol},
+    year = {1981},
+    publisher = {RFC Editor},
+    address = {USA},
+    note = "\url{https://tools.ietf.org/html/rfc793}",
+}
+
+
+@manual{jepsen,
+    title = "Jepsen",
+    author = "Kyle Kingsbury",
+    note = "\url{https://jepsen.io/}",
+    year = "accessed November 7, 2020"
+}
+
+@article{h&w,
+  title={Linearizability: A correctness condition for concurrent objects},
+  author={Herlihy, Maurice P and Wing, Jeannette M},
+  journal={ACM Transactions on Programming Languages and Systems (TOPLAS)},
+  volume={12},
+  number={3},
+  pages={463--492},
+  year={1990},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{adya,
+  title={Generalized isolation level definitions},
+  author={Adya, Atul and Liskov, Barbara and O'Neil, Patrick},
+  booktitle={Proceedings of 16th International Conference on Data Engineering (Cat. No. 00CB37073)},
+  pages={67--78},
+  year={2000},
+  organization={IEEE}
+}
+
+@article{elle,
+  title={Elle: Inferring Isolation Anomalies from Experimental Observations},
+  author={Kingsbury, Kyle and Alvaro, Peter},
+  journal={arXiv preprint arXiv:2003.10554},
+  year={2020}
+}
+
+@inproceedings{epidemic,
+author = {Demers, Alan and Greene, Dan and Hauser, Carl and Irish, Wes and Larson, John and Shenker, Scott and Sturgis, Howard and Swinehart, Dan and Terry, Doug},
+title = {Epidemic Algorithms for Replicated Database Maintenance},
+year = {1987},
+isbn = {089791239X},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/41840.41841},
+doi = {10.1145/41840.41841},
+booktitle = {Proceedings of the Sixth Annual ACM Symposium on Principles of Distributed Computing},
+pages = {1–12},
+numpages = {12},
+location = {Vancouver, British Columbia, Canada},
+series = {PODC '87}
+}
+
+@article{amazon,
+  title={How {Amazon} {Web} {Services} uses formal methods},
+  author={Newcombe, Chris and Rath, Tim and Zhang, Fan and Munteanu, Bogdan and Brooker, Marc and Deardeuff, Michael},
+  journal={Communications of the ACM},
+  volume={58},
+  number={4},
+  pages={66--73},
+  year={2015},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{lamport-reliable,
+  title={The implementation of reliable distributed multiprocess systems},
+  author={Lamport, Leslie},
+  journal={Computer Networks (1976)},
+  volume={2},
+  number={2},
+  pages={95--114},
+  year={1978},
+  publisher={Elsevier}
+}
